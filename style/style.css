@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(95, 8, 161);
+    color:rgb(28, 32, 36);
+    font-family: "Chivo Mono", monospace ;
+}
+
+
+
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin: 10px;
+    
+}
+
+a{
+    box-shadow: -10px 10px rgb(114, 87, 161);
+}
+
+a:link{
+     color: #000;
+     text-decoration: none;
+}
+
+a:active{
+    color:rgb(47, 83, 55)
+}
+
+.main{
+    display: flex;
+    height: auto;
+    
+}
+
+.left{
+    width: 25%;
+    min-height: 100vh;
+    background-image:url(../pic/kira.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.center{ 
+    margin: 20px;
+    margin-top: 50px;
+    width: 100%;
+    min-height: 100vh;
+    
+    line-height: 2;
+}
+
+
+
+h1{
+    text-align: center;
+    margin: 10px;
+}
+
+.right{
+    background-image:url(../pic/kira.jpg);
+    width: 25%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.bar{
+    width: 100%;
+}
+
+
+
+footer{
+    text-align: center;
+}
